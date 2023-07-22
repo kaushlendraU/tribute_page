@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  background: #dcdddd;
+  color: #1b1b32;
+  font-family: Helvetica;
+}
+
+h1{
+  color: Black;
+  font-size: 30px;
+  text-align: center;
+} 
+
+p{
+  font-size: 17px;
+  text-align: center;
+} 
+ 
+.img-container {
+  display: grid;
+ place-items: center;
+ margin: auto;
+ padding: 10px;
+background-color: white;
+}
+
+.image{
+max-width: 100%;
+display: block;
+height: auto;
+} 
+
+.caption{
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.life{
+  display: grid;
+  grid-row-gap: 30px;
+  font-size: 12px;
+  padding-right: 10px;
+ }
+
+.timeline{
+  text-align: center;
+  font-size: 14px;
+  padding-top: 23px;
+  height: 65px ; 
+ } 
+
+.quote{
+ padding-top: 30px;
+ text-align-last: left;
+ font-size: 13px; 
+ width: 70%;
+ padding-left: 15px;
+ }
+
+.quote-author{
+  text-align:left;
+  padding-left: 15px;
+  font-size: 13px; 
+}
+h3{
+  font-size: 14px;
+  text-align: center;
+  padding-top: 25px; 
+} 
